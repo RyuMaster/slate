@@ -1,0 +1,51 @@
+<h1 id='get-a-new-wallet'>Get a New Wallet</h1>
+<p>If for any reason you want or need a new wallet, it&#39;s very simple to do.</p>
+
+<p>The XAYA Electron wallet has 2 wallets: a game wallet and a vault wallet. They 
+are located here:</p>
+
+<p>C:\Users\<user>\AppData\Roaming\Xaya\wallets</p>
+
+<p>On Linux with the QT wallet software, the wallet is located here:</p>
+
+<p>~/.xaya/wallets</p>
+
+<p>Or here:</p>
+
+<p>~/home/<user>/xaya/wallets</p>
+
+<p>On OS X (Mac) with the QT wallet software, they are here:</p>
+
+<p>~/Library/Application Support/Xaya/wallets/</p>
+
+<p>On Windows, in that folder are 2 folders:</p>
+
+<p>• game.dat</p>
+
+<p>• vault.dat</p>
+
+<p>Inside of each of those folders is a wallet.dat file.</p>
+
+<p>To replace a wallet.dat file:</p>
+
+<ol>
+<li><p>Shut down your wallet software if it&#39;s not already shut down.</p></li>
+<li><p>Navigate to the folder of the wallet that you wish to replace.</p></li>
+<li><p>Rename the wallet.dat file with a description that&#39;s meaningful to you. For 
+example:<br>
+ <br>
+Old wallet - empty.dat<br>
+ <br>
+By renaming your wallet, you can go back and rename it back to wallet.dat so 
+that you can use it again.<br>
+ <br>
+At this stage, you will not have a file named &quot;wallet.dat&quot; in that folder.<br>
+ </p></li>
+<li><p>Restart your XAYA Electron wallet. It will automatically create a new, empty 
+wallet.dat for you.</p></li>
+</ol>
+
+<p>Take note that the process above does not delete the old wallet.dat file. If you 
+are certain that the wallet has nothing of value, you may wish to delete it. If 
+you are replacing a wallet because you have lost the password, you should still 
+keep the wallet as it may be possible to retrieve the wallet&#39;s password.</p>

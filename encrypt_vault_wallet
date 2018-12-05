@@ -1,0 +1,83 @@
+<h1 id='encrypt-vault-wallet'>Encrypt Vault Wallet</h1>
+<p>It is STRONGLY recommended that you encrypt your vault wallet. This will help to 
+keep the CHI and blockchain assets in it secure.</p>
+
+<p>You must back up your vault wallet after you encrypt it and ensure that you have 
+stored your password for it safely. Failure to do so could result in lost CHI 
+and lost blockchain assets.</p>
+
+<p>Ideally, you should start with a 0 balance in your vault wallet and have no 
+blockchain assets or names stored in it. The purpose here is to test your newly 
+encrypted wallet with zero risk.</p>
+
+<p>The following shows how to encrypt your wallet in a conservative (paranoid) 
+manner that seeks to eliminate potential errors.</p>
+
+<ol>
+<li><p>If you have any coins in your vault wallet, send them all to your game 
+wallet. Check the &quot;Subtract fee from amount?&quot; checkbox. See <a href="send.md">here for how to 
+send coins</a>. Similar for other blockchain assets, i.e. names. Transfer 
+any names to your game wallet. See <a href="transfer_a_name.md">here for how to transfer 
+names</a>.</p></li>
+<li><p>Your empty vault wallet should look like this:<br>
+ <br>
+<img src="/images/img/about-to-encrypt-vault-wallet.zoom52.png" alt="about-to-encrypt-vault-wallet" /><br>
+ </p></li>
+<li><p>Decide on a password that you would like to use, and write it down or store 
+it in a safe location, ideally in a password manager.</p></li>
+<li><p>Click ENCRYPT.</p></li>
+<li><p>Enter your password into the password field and click the Encrypt button. 
+Ideally, you should copy your password from your password manager. It is 
+possible that if you type your password, you could mistype it and that you could 
+mistype it when you confirm your password. Copying your password from your 
+password manager is the safest way to ensure that you enter your password 
+correctly.<br>
+ <br>
+<img src="/images/img/enter-password-to-encrypt-vault-wa%0Allet.png" alt="enter-password-to-encrypt-vault-wallet" /><br>
+ </p></li>
+<li><p>Confirm your password by entering it in again and clicking the Encrypt 
+button. Pay attention to what happens next.  </p></li>
+</ol>
+
+<p><img src="/images/img/confirm-vault-password.png" alt="confirm-vault-password" />  </p>
+
+<ol>
+<li><p>If your passwords don&#39;t match, you&#39;ll see this error message. Start again at 
+step 5.<br>
+ <br>
+<img src="/images/img/password-do-not-match.png" alt="password-do-not-match" /><br>
+ </p></li>
+<li><p>If your passwords match, you&#39;ll see this message but only briefly. The wallet 
+software will automatically close.<br>
+ <br>
+<img src="/images/img/wallet-encrypted-restarting-message.p%0Ang" alt="wallet-encrypted-restarting-message" /><br>
+ </p></li>
+<li><p>Restart the wallet software.</p></li>
+<li><p>Ensure that the vault wallet is selected. See <a href="wallets.md">here for how to select the 
+vault wallet</a>.</p></li>
+<li><p>Test your new password by clicking UNLOCK WALLET in the upper-right corner 
+of the wallet on the <a href="overview.md">Overview screen</a> and entering your password. </p></li>
+</ol>
+
+<p> <br>
+<img src="/images/img/unlock-wallet-button.png" alt="unlock-wallet-button" /><br>
+ </p>
+
+<ol>
+<li><p>If your wallet was successfully unlocked, you will see a message in the 
+upper-right corner of the wallet on the <a href="overview.md">Overview screen</a>.<br>
+ <br>
+<img src="/images/img/wallet-unlocked-until.png" alt="wallet-unlocked-until" /><br>
+ </p></li>
+<li><p>If you did not enter your password correctly, you will see a message similar 
+to the figure below.<br>
+ <br>
+<img src="/images/img/wrong-wallet-password.png" alt="wrong-wallet-password" /><br>
+ </p></li>
+<li><p>If you entered the wrong password, start again at step 11. If the error 
+persists, then you&#39;ve failed to properly encrypt your wallet with a password 
+that you can reliably enter. (This is why your wallet should be empty as per the 
+notice above in step 1.) See <a href="get_a_new_wallet.md">Get a New Wallet</a> for 
+information on how to get a new vault wallet to encrypt. After that, start over 
+at step 1.</p></li>
+</ol>

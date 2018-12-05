@@ -1,0 +1,16 @@
+<h1 id='console'>Console</h1>
+<p>The console is for testing purposes only. It is provided for those who wish to 
+get blockchain information and should not be used to write to the blockchain.</p>
+
+<p><img src="/images/img/xaya-console.zoom53.png" alt="xaya-console" /></p>
+
+<p>Type &quot;help&quot; then click SEND for a list of commands.</p>
+
+<p>An example of a useful command is &quot;getmininginfo&quot;. It returns the current 
+results, similar to the figure below.</p>
+
+<p><img src="/images/img/console-getmininginfo.png" alt="console-getmininginfo" /></p>
+
+<p>Those wishing to perform more advanced operations should work with the XAYA 
+daemon directly or download the XAYA QT wallet. It is similar to the Bitcoin 
+Core wallet.</p>

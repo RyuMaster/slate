@@ -1,0 +1,12 @@
+<h1 id='balance'>Balance</h1>
+<p>The Balance area on the Overview screen displays how much CHI you have in the 
+<a href="wallets.md">currently selected wallet</a>.</p>
+
+<p><img src="/images/img/balance-area.png" alt="balance-area" /></p>
+
+<p>It displays the amount in full to 8 decimal places.</p>
+
+<p>Should you &quot;be surprised&quot; at an amount in your wallet, it may be that you&#39;ve 
+simple got the wrong one selected.</p>
+
+<p>See <a href="wallets.md">Wallets</a> for more information.</p>

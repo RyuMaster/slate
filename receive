@@ -1,0 +1,15 @@
+<h1 id='receive'>Receive</h1>
+<p>The Receive screen lets you create CHI addresses where you can receive CHI.</p>
+
+<p><img src="/images/img/receive-screen.zoom53.png" alt="receive-screen" /></p>
+
+<p>To create an address:</p>
+
+<ol>
+<li><p>In the Address Label input, enter a label, e.g. &quot;My address&quot;.</p></li>
+<li><p>Click INSERT.</p></li>
+<li><p>Your new address appears in the Receiving Addresses list.</p></li>
+</ol>
+
+<p>You can select the address and press CTRL+C or you can click COPY to copy the 
+address to the clipboard.</p>

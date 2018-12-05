@@ -1,0 +1,117 @@
+<h1 id='back-up-wallets'>Back Up Wallets</h1>
+<p>It is critically important that you back up your wallets. Failure to do so could 
+result in the loss of your CHI and blockchain assets.</p>
+
+<p>There are 2 ways to back up your wallets.</p>
+
+<p>• <a href="back_up_wallets.htm#electronwalletbackupfeature">Use the back up feature in the XAYA Electron wallet to back them up to a safe 
+location</a></p>
+
+<p>• <a href="back_up_wallets.htm#manuallybackingupwallets">Manually back up your wallets by copying them to a safe 
+location</a></p>
+
+<p>&quot;Safe Location&quot;</p>
+
+<p>Your back ups should be stored in a &quot;safe location&quot;. This will have different 
+meanings for different people. One person may want a physical printout and 
+multiple USB sticks stored in a bank vault, while another considers a file 
+backup on the same drive a safe location. This has entirely to do with your risk 
+tolerance and what you consider safe. The following backup methods are to help 
+you decide on what is right for you.</p>
+
+<p>Wallet Backup Feature</p>
+
+<p>The easiest way to back up your wallets is to use the backup feature in 
+<a href="settings.md">Settings</a>.</p>
+
+<p><img src="/images/img/wallet-backup-feature.png" alt="wallet-backup-feature" /></p>
+
+<p><a href="settings.htm#backingupyourwallets">Click here for help with the built-in backup 
+feature</a>.</p>
+
+<p>Manually Backing Up Wallets</p>
+
+<p>The following explains in detail how to back up your wallets manually.</p>
+
+<p>NOTE: This is for advanced users. If you have any difficulty whatsoever with 
+anything below, you should use the backup features in the Electron or QT wallet 
+software.</p>
+
+<p>File-based Backups</p>
+
+<p>XAYA has 3 distinct wallets depending on which wallet software you are running. 
+One wallet is used by the XAYA QT wallet, while the XAYA Electron wallet has 2 
+wallets, the game and vault wallets. You only need to copy each wallet.dat file 
+to a safe location to back them up.</p>
+
+<p><a href="back_up_wallets.htm#walletlocations">Click here to skip to the wallet 
+locations</a>.</p>
+
+<p>XAYA QT Wallet Folder</p>
+
+<p>The XAYA QT wallet can be found in the datadir wallets folder on Windows here:</p>
+
+<p>%APPDATA%\Xaya\wallets\</p>
+
+<p>e.g. C:\Users\<user>\AppData\Roaming\Xaya\wallets\</p>
+
+<p>On Linux the wallet folder is here:</p>
+
+<p>~/.xaya/wallets/</p>
+
+<p>Or here:</p>
+
+<p>~/home/<user>/xaya/wallets/</p>
+
+<p>On OS X (Mac) the wallet folder is here:</p>
+
+<p>~/Library/Application Support/Xaya/wallets/</p>
+
+<p>XAYA Electron Wallets Folders</p>
+
+<p>The XAYA Electron wallets are in the game.dat and vault.dat subfolders. On 
+Windows, those are here:</p>
+
+<p>%APPDATA%\Xaya\wallets\game.dat\</p>
+
+<p>%APPDATA%\Xaya\wallets\vault.dat\</p>
+
+<p>e.g.</p>
+
+<p>C:\Users\<user>\AppData\Roaming\Xaya\wallets\game.dat\</p>
+
+<p>C:\Users\<user>\AppData\Roaming\Xaya\wallets\vault.dat\</p>
+
+<p>The XAYA Electron wallet is not yet available for Linux or OS X (Mac).</p>
+
+<p>Backing Up Wallet Files</p>
+
+<p>Backing up wallet files is only a matter of copying them to a safe location. The 
+Electron wallet has 2 wallet files while the QT wallet has only 1 wallet file.</p>
+
+<p>The 3 possible wallet locations to back up are:</p>
+
+<p>%APPDATA%\Xaya\wallets\wallet.dat</p>
+
+<p>%APPDATA%\Xaya\wallets\game.dat\wallet.dat</p>
+
+<p>%APPDATA%\Xaya\wallets\vault.dat\wallet.dat</p>
+
+<p>Or on Linux for the QT wallet:</p>
+
+<p>~/.xaya/wallets/wallet.dat</p>
+
+<p>And on OS X for the QT wallet:</p>
+
+<p>~/Library/Application Support/Xaya/wallets/wallet.dat</p>
+
+<p>If you haven&#39;t run the XAYA QT wallet, you will not have that file. This is 
+normal.</p>
+
+<p>To back up a wallet file:</p>
+
+<ol>
+<li><p>Shut down the wallet software.</p></li>
+<li><p>Copy the wallet.dat file to 1 or more safe backup locations.</p></li>
+<li><p>Restart your wallet software.</p></li>
+</ol>

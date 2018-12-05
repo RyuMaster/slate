@@ -1,0 +1,11 @@
+<h1 id='about'>About</h1>
+<p>The About dialog has some basic information about the wallet, including license 
+and copyright information.</p>
+
+<p>XAYA is open source. Source code is available at the <a href="https://github.com/xaya/">XAYA Github respository 
+here</a>.</p>
+
+<p>XAYA is experimental software <a href="https://opensource.org/licenses/MIT">distributed under the MIT license available 
+here</a>.</p>
+
+<p><img src="/images/img/about-dialog.png" alt="about-dialog" /></p>

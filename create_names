@@ -1,0 +1,43 @@
+<h1 id='create-names'>Create Names</h1>
+<p>Creating names is one of the most important aspects of the wallet. Here you can 
+create names for accounts that you use for different games.</p>
+
+<p><img src="/images/img/create-names-screen.zoom53.png" alt="create-names-screen" /></p>
+<h2 id='choosing-an-account-name'>Choosing an Account Name</h2>
+<p>To create a name for use as an account for games:</p>
+
+<ol>
+<li><p>Choose the &quot;p/&quot; namespace from the Select preset namespace drop-down menu. 
+This is for reserving account names.<br>
+ <br>
+<img src="/images/img/namespace-drop-down-menu.png" alt="namespace-drop-down-menu" /><br>
+ </p></li>
+<li><p>Type a name in the Name input.<br>
+ <br>
+<img src="/images/img/enter-a-name.png" alt="enter-a-name" /><br>
+ </p></li>
+<li><p>Leave the Name Value input empty.</p></li>
+<li><p>Click SUBMIT NAME.</p></li>
+</ol>
+
+<p>You can check your acount name on the <a href="my_names.md">My Names screen</a>.</p>
+<h2 id='choosing-a-game-name'>Choosing a Game Name</h2>
+<p>This is not the actual name of your game. XAYA uses &quot;name&quot; as jargon. Here, a 
+&quot;game name&quot; is more traditionally best described as a &quot;game ID&quot;.</p>
+
+<p>To create a name for use as game name:</p>
+
+<ol>
+<li><p>Choose the &quot;g/&quot; namespace from the Select preset namespace drop-down menu. 
+This is for reserving game names.<br>
+ <br>
+<img src="/images/img/reserve-a-game-name.png" alt="reserve-a-game-name" /><br>
+ </p></li>
+<li><p>Type a name in the Name input as shown above.</p></li>
+<li><p>Leave the Name Value input empty.</p></li>
+<li><p>Click SUBMIT NAME.</p></li>
+</ol>
+
+<p>You can check your game name on the <a href="my_names.md">My Names screen</a>.</p>
+<h2 id='choosing-a-custom-namespace'>Choosing a Custom Namespace</h2>
+<p>Custom namespaces are reserved for further development.</p>

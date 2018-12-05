@@ -1,0 +1,69 @@
+<h1 id='settings'>Settings</h1>
+<p>The Settings screen lets you change connection settings, back up your wallets, 
+and switch to testnet.</p>
+
+<p><img src="/images/img/settings-screen-backups.zoom52.png" alt="settings-screen-backups" /></p>
+
+<p>Advanced users can change connection settings.</p>
+
+<p><img src="/images/img/advanced-connection-settings.png" alt="advanced-connection-settings" /></p>
+
+<p>Unless you fully understand the connection settings, you should leave them as 
+is.</p>
+
+<p>Advanced users and miners can make the changes they need, then click the SUBMIT 
+SETTINGS button to save their new connection settings.</p>
+
+<p>The DataDir Override allows you to change the directory where the XAYA 
+blockchain, wallets, and other data is stored. The default directory is:</p>
+
+<p>%APPDATA%\Xaya\</p>
+
+<p>e.g. C:\Users\<user>\AppData\Roaming\Xaya</p>
+
+<p>On Linux the datadir is here:</p>
+
+<p>~/.xaya/</p>
+
+<p>Or here:</p>
+
+<p>~/home/<user>/xaya/</p>
+
+<p>On OS X (Mac) the datadir is here:</p>
+
+<p>~/Library/Application Support/Xaya/</p>
+
+<p>People with limited space on their system drive may wish to change the datadir 
+folder location.</p>
+<h2 id='backing-up-your-wallets'>Backing Up Your Wallets</h2>
+<p>You can back up your wallets by clicking the wallet backup buttons.</p>
+
+<p><img src="/images/img/wallet-backup-feature.png" alt="wallet-backup-feature" /></p>
+
+<ol>
+<li><p>Click either of the WALLET BACKUP buttons.</p></li>
+<li><p>Browse to a folder where you want to back up your wallet.<br>
+ <br>
+<img src="/images/img/select-folder-and-enter-backup-f%0Aile-name.png" alt="select-folder-and-enter-backup-file-name" /><br>
+ </p></li>
+<li><p>Enter a name for your backup as illustrated in the figure above.</p></li>
+<li><p>Click the Open button.</p></li>
+<li><p>Confirm by clicking Yes.<br>
+ <br>
+<img src="/images/img/confirm-backup-create-file.png" alt="confirm-backup-create-file" /><br>
+ </p></li>
+<li><p>Browse to your backup in your file explorer and perform any additional backup 
+plans you have, e.g. save it to a USB stick or external drive.</p></li>
+</ol>
+
+<p>See <a href="back_up_wallets.md">Back Up Wallets</a> for additional information or 
+<a href="back_up_wallets.htm#manuallybackingupwallets">Manually Backing Up Wallets</a> for 
+how to do it manually.</p>
+<h2 id='testnet'>Testnet</h2>
+<p>To switch to testnet, check the Testnet checkbox then click the SUBMIT SETTINGS 
+button and restart the XAYA Electron wallet.</p>
+
+<p>Testnet is used for testing. Most people have no need for testnet.</p>
+
+<p>However, if you wish, you can use testnet to try out different features and 
+become familiar with them before you &quot;go live&quot; and try them on mainnet.</p>

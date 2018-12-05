@@ -1,0 +1,28 @@
+<h1 id='send'>Send</h1>
+<p>The Send screen lets you send CHI to other people at their CHI addresses.</p>
+
+<p>NOTE: The Send screen is not for transferring names.</p>
+
+<p><img src="/images/img/send-screen.zoom52.png" alt="send-screen" /></p>
+
+<p>To send CHI to another CHI address:</p>
+
+<ol>
+<li><p>Paste the address into the Pay to Address input. (Do not type addresses.)</p></li>
+<li><p>Enter how much CHI you want to send into the Amount Value input.</p></li>
+<li><p>Optionally, you can choose to enter the amount in CHI, mCHI or uCHI. (Using 
+the default CHI is recommended.)</p></li>
+<li><p>Check whether or not fees should be subtracted from the amount you are 
+sending.</p></li>
+<li><p>Optionally, you can enter a comment, e.g. &quot;Sending 5 CHI to Alice&quot;.</p></li>
+<li><p>Click SEND.</p></li>
+</ol>
+
+<p>You can check your transaction on the <a href="transactions.md">Transactions screen</a>.</p>
+
+<p>DO NOT TYPE ADDRESSES.</p>
+
+<p>Typing address is highly discouraged. You could make a simple mistake, and lose 
+your CHI.</p>
+
+<p>We STRONGLY recommend copying and pasting addresses.</p>

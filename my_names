@@ -1,0 +1,36 @@
+<h1 id='my-names'>My Names</h1>
+<p>The My Names screen lists all of the names that you&#39;ve reserved for yourself. 
+The following example has 1 name, but you could have many more.</p>
+
+<p><img src="/images/img/my-names-screen-1-name.zoom53.png" alt="my-names-screen-1-name" /></p>
+
+<p>There are 4 columns:</p>
+
+<p>• XAYA Name: This is the proper name that you&#39;ve reserved.</p>
+
+<p>• Name Value (optional): This is simply the JSON expression of your name.</p>
+
+<p>• Address: This is the CHI address for your name.</p>
+
+<p>• Update/Transfer: This allows you to change the properties of your name or to 
+transfer your name (account) to someone else.</p>
+
+<p>Unless you fully understand what an update is, you should NOT update your name. 
+Updating names is an advanced feature meant for experts.</p>
+
+<p>Transferring a Name</p>
+
+<p>You can transfer a name to someone else by sending the name to a valid CHI 
+address.</p>
+
+<ol>
+<li><p>Click TRANSFER for the name you wish to transfer.</p></li>
+<li><p>Paste in the CHI address that you want to transfer the name to.<br>
+ <br>
+<img src="/images/img/enter-chi-address-to-transfer-name-%0Ato.png" alt="enter-chi-address-to-transfer-name-to" /><br>
+ </p></li>
+<li><p>Click OK.</p></li>
+</ol>
+
+<p>The name is transferred to the address. You can check the transaction on the 
+<a href="transactions.md">Transactions screen</a>.</p>

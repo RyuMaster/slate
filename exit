@@ -1,0 +1,7 @@
+<h1 id='exit'>Exit</h1>
+<p>The Exit menu item shuts down the XAYA Electron wallet and the XAYA daemon.</p>
+
+<p><img src="/images/img/exit-menu-item.png" alt="exit-menu-item" /></p>
+
+<p>You must have the daemon running in order to play games or interact with the 
+XAYA blockchain. The wallet is a convenient GUI wrapped around the daemon.</p>

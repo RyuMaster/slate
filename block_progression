@@ -1,0 +1,11 @@
+<p>Block Progression</p>
+
+<p>The Block Progression area shows you the latest block that you&#39;ve downloaded 
+from the network, and the current block height. If they are equal, your wallet 
+is synchronised with the network.</p>
+
+<p><img src="/images/img/block-progression-area.png" alt="block-progression-area" /></p>
+
+<p>If you cannot get your wallet to synchronise properly, visit the <a href="https://forum.xaya.io/">XAYA 
+forums</a> and post in the <a href="https://forum.xaya.io/forum/16-support/">Support 
+forum</a>.</p>

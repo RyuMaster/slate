@@ -1,0 +1,5 @@
+<h1 id='versions'>Versions</h1>
+<p>The versions area displays the current XAYA Electron wallet version and the 
+current XAYA daemon version.</p>
+
+<p><img src="/images/img/versions-area.png" alt="versions-area" /></p>

@@ -1,0 +1,13 @@
+<h1 id='minimize'>Minimize</h1>
+<p>Clicking the Minimize link sends the wallet to the task bar notification area 
+(aka system tray).</p>
+
+<p><img src="/images/img/minimze-to-task-bar-notification-ar%0Aea.png" alt="minimze-to-task-bar-notification-area" /></p>
+
+<p>Click the XAYA icon in the task bar notification area, or right-click it and 
+choose &quot;Show App&quot;.</p>
+
+<p><img src="/images/img/minimize-show-app.png" alt="minimize-show-app" /></p>
+
+<p>You can also shut down the XAYA Electron wallet and XAYA daemon by clicking 
+&quot;Quit&quot;.</p>

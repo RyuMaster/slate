@@ -1,0 +1,29 @@
+<h1 id='transfer-a-name'>Transfer a Name</h1>
+<p>You can transfer names between your game and vault wallet, or you can transfer a 
+name to another person using one of their CHI addresses.</p>
+
+<p>To transfer a name:</p>
+
+<ol>
+<li><p>Click <a href="my_names.md">My Names</a> in the left-side navigation.</p></li>
+<li><p>Find the name that you wish to transfer.</p></li>
+<li><p>On the right-hand side on the same line as the name you wish to transfer, 
+click TRANSFER.<br>
+ <br>
+<img src="/images/img/click-transfer-button.zoom71.png" alt="click-transfer-button" /><br>
+ </p></li>
+<li><p>Paste the address that you want to transfer the name to in the input.<br>
+ <br>
+<img src="/images/img/transfer-dialog.png" alt="transfer-dialog" /><br>
+ </p></li>
+<li><p>Click OK to transfer the name.</p></li>
+<li><p>A dialog with the transaction ID appears. Click OK to close it.<br>
+ <br>
+<img src="/images/img/transfer-transaction-id.png" alt="transfer-transaction-id" /></p></li>
+</ol>
+
+<p>Your name will remain in your wallet while the transfer is being confirmed. Once 
+it is confirmed, it will disappear.</p>
+
+<p>If you transferred the name to your other wallet, you can check <a href="my_names.md">My 
+Names</a> or <a href="transactions.md">Transactions</a> in that wallet.</p>
