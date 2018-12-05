@@ -1,0 +1,309 @@
+
+<!doctype html>
+<html>
+  <head>
+    <meta charset="utf-8">
+    <meta content="IE=edge,chrome=1" http-equiv="X-UA-Compatible">
+    <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1">
+    <title>API Documentation</title>
+
+    <style>
+      .highlight table td { padding: 5px; }
+.highlight table pre { margin: 0; }
+.highlight .gh {
+  color: #999999;
+}
+.highlight .sr {
+  color: #f6aa11;
+}
+.highlight .go {
+  color: #888888;
+}
+.highlight .gp {
+  color: #555555;
+}
+.highlight .gs {
+}
+.highlight .gu {
+  color: #aaaaaa;
+}
+.highlight .nb {
+  color: #f6aa11;
+}
+.highlight .cm {
+  color: #75715e;
+}
+.highlight .cp {
+  color: #75715e;
+}
+.highlight .c1 {
+  color: #75715e;
+}
+.highlight .cs {
+  color: #75715e;
+}
+.highlight .c, .highlight .cd {
+  color: #75715e;
+}
+.highlight .err {
+  color: #960050;
+}
+.highlight .gr {
+  color: #960050;
+}
+.highlight .gt {
+  color: #960050;
+}
+.highlight .gd {
+  color: #49483e;
+}
+.highlight .gi {
+  color: #49483e;
+}
+.highlight .ge {
+  color: #49483e;
+}
+.highlight .kc {
+  color: #66d9ef;
+}
+.highlight .kd {
+  color: #66d9ef;
+}
+.highlight .kr {
+  color: #66d9ef;
+}
+.highlight .no {
+  color: #66d9ef;
+}
+.highlight .kt {
+  color: #66d9ef;
+}
+.highlight .mf {
+  color: #ae81ff;
+}
+.highlight .mh {
+  color: #ae81ff;
+}
+.highlight .il {
+  color: #ae81ff;
+}
+.highlight .mi {
+  color: #ae81ff;
+}
+.highlight .mo {
+  color: #ae81ff;
+}
+.highlight .m, .highlight .mb, .highlight .mx {
+  color: #ae81ff;
+}
+.highlight .sc {
+  color: #ae81ff;
+}
+.highlight .se {
+  color: #ae81ff;
+}
+.highlight .ss {
+  color: #ae81ff;
+}
+.highlight .sd {
+  color: #e6db74;
+}
+.highlight .s2 {
+  color: #e6db74;
+}
+.highlight .sb {
+  color: #e6db74;
+}
+.highlight .sh {
+  color: #e6db74;
+}
+.highlight .si {
+  color: #e6db74;
+}
+.highlight .sx {
+  color: #e6db74;
+}
+.highlight .s1 {
+  color: #e6db74;
+}
+.highlight .s {
+  color: #e6db74;
+}
+.highlight .na {
+  color: #a6e22e;
+}
+.highlight .nc {
+  color: #a6e22e;
+}
+.highlight .nd {
+  color: #a6e22e;
+}
+.highlight .ne {
+  color: #a6e22e;
+}
+.highlight .nf {
+  color: #a6e22e;
+}
+.highlight .vc {
+  color: #ffffff;
+}
+.highlight .nn {
+  color: #ffffff;
+}
+.highlight .nl {
+  color: #ffffff;
+}
+.highlight .ni {
+  color: #ffffff;
+}
+.highlight .bp {
+  color: #ffffff;
+}
+.highlight .vg {
+  color: #ffffff;
+}
+.highlight .vi {
+  color: #ffffff;
+}
+.highlight .nv {
+  color: #ffffff;
+}
+.highlight .w {
+  color: #ffffff;
+}
+.highlight {
+  color: #ffffff;
+}
+.highlight .n, .highlight .py, .highlight .nx {
+  color: #ffffff;
+}
+.highlight .ow {
+  color: #f92672;
+}
+.highlight .nt {
+  color: #f92672;
+}
+.highlight .k, .highlight .kv {
+  color: #f92672;
+}
+.highlight .kn {
+  color: #f92672;
+}
+.highlight .kp {
+  color: #f92672;
+}
+.highlight .o {
+  color: #f92672;
+}
+    </style>
+    <link href="stylesheets/screen.css" rel="stylesheet" media="screen" />
+    <link href="stylesheets/print.css" rel="stylesheet" media="print" />
+      <script src="javascripts/all_nosearch.js"></script>
+  </head>
+
+  <body class="wallets" data-languages="[]">
+    <a href="#" id="nav-button">
+      <span>
+        NAV
+        <img src="images/navbar.png" alt="Navbar" />
+      </span>
+    </a>
+    <div class="toc-wrapper">
+      <img src="images/logo.png" class="logo" alt="Logo" />
+      <ul id="toc" class="toc-list-h1">
+          <li>
+            <a href="#wallets" class="toc-h1 toc-link" data-title="Wallets">Wallets</a>
+              <ul class="toc-list-h2">
+                  <li>
+                    <a href="#vault-wallet" class="toc-h2 toc-link" data-title="Vault Wallet">Vault Wallet</a>
+                  </li>
+                  <li>
+                    <a href="#game-wallet" class="toc-h2 toc-link" data-title="Game Wallet">Game Wallet</a>
+                  </li>
+                  <li>
+                    <a href="#very-basic-security-tips" class="toc-h2 toc-link" data-title="Very Basic Security Tips">Very Basic Security Tips</a>
+                  </li>
+              </ul>
+          </li>
+      </ul>
+    </div>
+    <div class="page-wrapper">
+      <div class="dark-box"></div>
+      <div class="content">
+        <h1 id='wallets'>Wallets</h1>
+<p>The XAYA Electron wallet supports 2 distinct wallets.</p>
+
+<ol>
+<li><p>Vault wallet</p></li>
+<li><p>Game wallet</p></li>
+</ol>
+
+<p>You can switch between wallets using the wallet selector in the upper-left 
+corner of the XAYA Electron wallet.</p>
+
+<p><img src="images/img/xaya-wallet-selector.png" alt="xaya-wallet-selector" /></p>
+
+<p>NOTE: The term &quot;wallet&quot; refers to several distinct things.</p>
+
+<p>• The wallet software, e.g. XAYA Electron wallet, or XAYA QT wallet</p>
+
+<p>• The individual wallets inside of the software, i.e. the vault wallet and game 
+wallet. These are the wallet.dat files inside of the game.dat and vault.dat 
+folders in the datadir (%APPDATA%\Xaya\, 
+C:\Users\<user>\AppData\Roaming\Xaya, etc.).</p>
+<h2 id='vault-wallet'>Vault Wallet</h2>
+<p>Your vault wallet is designed to be encrypted. This is where you should store 
+most of your CHI and valuable blockchain assets that you&#39;re not currently using.</p>
+
+<p>Once you&#39;ve encrypted your wallet, you MUST back it up again. Your previous 
+unencrypted wallets will not be sufficient.</p>
+
+<p>See <a href="encrypt_vault_wallet.md">here for how to encrypt your vault wallet</a>.</p>
+
+<p>You can back up your vault wallet on the <a href="settings.md">Settings screen</a>.</p>
+
+<p>Further, you MUST store your password in a safe place. If you lose your 
+password, you may lose your CHI and any assets that were stored in your vault 
+wallet.</p>
+
+<p>To reiterate, BACK UP YOUR WALLET AND STORE YOUR PASSWORD IN A SAFE PLACE.</p>
+<h2 id='game-wallet'>Game Wallet</h2>
+<p>Your game wallet should NOT be encrypted. Leaving it unencrypted makes it easier 
+and faster to do moves in games. If it were encrypted, you&#39;d have to enter your 
+password every time you made a move. This would be cumbersome, inconvenient, and 
+could make some games effectively unplayable.</p>
+
+<p>The game wallet is what you will be using most of the time.</p>
+
+<p>You can back up your game wallet on the <a href="settings.md">Settings screen</a>.</p>
+<h2 id='very-basic-security-tips'>Very Basic Security Tips</h2>
+<p>The basic security advice here is basic, and not exhaustive. You may wish to use 
+better security practices.</p>
+
+<p>Never give anyone your wallet.dat file or password.</p>
+
+<p>Physical security is important. Do not run XAYA wallet software on computers 
+that other people have access to. If you must run the software on a computer 
+that other people have access to, you run the risk of those people stealing your 
+CHI and blockchain assets. Consider running a portable version of the wallet 
+software from a portable SSD.</p>
+
+<p>Consider using password management software. Remember to back up your password 
+database and any other relevant data.</p>
+
+<p>If you have a significant amount of CHI, avoid talking about how much you have. 
+Practice good online security and don&#39;t give out personal information.</p>
+
+<p>Use reputable anti-virus software and avoid installing questionable software. 
+Also, be judicious in which websites you visit on any computer that you are 
+running wallet software on.</p>
+
+<p>Ultimately you and only you are responsible for your security. There is a great 
+amount of information on computer security available online. It can even be fun.</p>
+
+      </div>
+      <div class="dark-box">
+      </div>
+    </div>
+  </body>
+</html>
